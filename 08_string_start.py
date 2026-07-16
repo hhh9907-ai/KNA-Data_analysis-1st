@@ -51,11 +51,30 @@
 # print(start[5:])
 
 
-word = "sensor_01"
-print(word[-2:])
+# word = "sensor_01"
+# print(word[-2:])
 
 
-word = "PHTYON"
-print(word[::-1])
+# word = "PHTYON"
+# print(word[::-1])
 
+# =============================================
+# 문자열의 길이 반환
+# print(len("hello world"))
+# print(len(" "))
 
+# var = "여러분 한시간 만 더 하면 됩니다 조금만 힘내세요!"
+# print(len(var))
+
+# num = "01012345678"
+# print(len(num))
+
+# text = "a,b,c,d"
+# print(text.count(","))
+
+# print("hong@company.com".find("@"))
+
+email = "hong@company.com"
+at = email.find("@")
+user_id = email[:at]
+print(user_id)
