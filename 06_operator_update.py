@@ -45,7 +45,50 @@
 
 # 질문 1) 해결방법
 # print("=== 질문 1) 해결 방법 ===")
-hi = "안녕"  # hello 변수에 hi 변수를 할당하기 전 hi 변수 선언
-hello = hi  # print(hello) > 안녕
-print("=== 변수 hello(안녕)와 변수 hi(안녕) 비교 ===")
-print(hello == hi)  # True
+# hi = "안녕"  # hello 변수에 hi 변수를 할당하기 전 hi 변수 선언
+# hello = hi  # print(hello) > 안녕
+# print("=== 변수 hello(안녕)와 변수 hi(안녕) 비교 ===")
+# print(hello == hi)  # True
+
+
+# print(5 == 7 or 7 == 7)
+
+
+# print(10 == 10)
+# print(10 != 12)
+# print(10 > 18)
+# print(10 < 15)
+# print(10 >= 10)
+# print(10 <= 7)
+
+
+# temp = 85
+# temp_ok = temp >= 60 and temp <= 90
+# print(temp_ok)
+
+# presure = 5
+# pres_ok = presure >= 3 and presure <= 7
+# print(pres_ok)
+
+# stock = 100
+# stock += 50
+# print(stock)
+
+# stock -= 30
+# print(stock)
+
+# stock += 5
+# print(stock)
+
+# total = 500
+# defect = 23
+# print(defect / total * 100)
+
+# total_run = 24
+# run = 21
+# print(run / total_run * 100)
+
+
+run_time = 500
+print(run_time // 60)
+print(run_time % 60)
