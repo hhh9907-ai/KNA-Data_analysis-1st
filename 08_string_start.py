@@ -13,13 +13,49 @@
 # tap = "이름/상태"
 # print(tap) #이름\상태 > 첫 번째 \는 이스케이프 문자라는 것을 알리는 용도
 
-set = "PUMP_A"
-status = "정상"
-oper = 1200
-view = "2026-07-16"
+# set = "PUMP_A"
+# status = "정상"
+# oper = 1200
+# view = "2026-07-16"
 
-set_up = (
-    "설비: " + set + "\n상태: " + status + "\n가동: " + str(oper) + "\n점검: " + view
-)
+# set_up = (
+#     "설비: " + set + "\n상태: " + status + "\n가동: " + str(oper) + "\n점검: " + view
+# )
 
-print(set_up)
+# print(set_up)
+
+# # ==================================================
+# word = "PHYTON"
+# print(word[0], word[5], word[3])
+
+# abc = "abcdefghijklnmopqrstuvwxyz"
+# # print(
+# #     abc[7]
+# #     + abc[0]
+# #     + abc[12]
+# #     + abc[7]
+# #     + abc[-2]
+# #     + abc[4]
+# #     + abc[14]
+# #     + abc[12]
+# #     + abc[6]
+# #     + abc[7]
+# #     + abc[4]
+# #     + abc[4]
+
+
+# print(abc[::-3])
+
+
+# start = "temp_sensor"
+# print(start[5:])
+
+
+word = "sensor_01"
+print(word[-2:])
+
+
+word = "PHTYON"
+print(word[::-1])
+
+
